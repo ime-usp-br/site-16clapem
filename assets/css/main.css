@@ -1923,16 +1923,17 @@ input, select, textarea {
 		padding-left: 0;
 		cursor: default;
 	}
-	.logoFotter{
+	.logoFooter{
 		width: 175px;
 		height: 100px;
 		object-fit: cover;
+		padding-left: 10px;
 	}
-	.logoFotter a{
+	.logoFooter a{
 		width: 100%;
 		height: 100%;
 	}
-	.logoFotter img{
+	.logoFooter img{
 		width: 100%;
 		height: 100%;
 		
@@ -1949,7 +1950,7 @@ input, select, textarea {
 			padding-left: 0;
 		}
 
-			ul.contact li a {
+			/* ul.contact li a {
 				-moz-transition: background-color .2s ease-in-out;
 				-webkit-transition: background-color .2s ease-in-out;
 				-ms-transition: background-color .2s ease-in-out;
@@ -1962,7 +1963,7 @@ input, select, textarea {
 				outline: 0;
 				background: #c1cac5;
 				text-align: center;
-			}
+			} */
 
 				ul.contact li a:before {
 					color: #f2f5f3;
