@@ -1923,7 +1923,20 @@ input, select, textarea {
 		padding-left: 0;
 		cursor: default;
 	}
-
+	.logoFotter{
+		width: 175px;
+		height: 100px;
+		object-fit: cover;
+	}
+	.logoFotter a{
+		width: 100%;
+		height: 100%;
+	}
+	.logoFotter img{
+		width: 100%;
+		height: 100%;
+		
+	}
 		ul.contact li {
 			-moz-transition: top .15s ease-in-out;
 			-webkit-transition: top .15s ease-in-out;
