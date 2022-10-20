@@ -1918,21 +1918,21 @@ input, select, textarea {
 
 /* Contact */
 
+	/* .texto{
+		font-size: 1.2rem;
+	} */
 	ul.contact {
 		list-style: none;
 		padding-left: 0;
 		cursor: default;
 	}
 	.logoFooter{
-		width: 175px;
-		height: 100px;
+		width: 200px;
+		height: 150px;
 		object-fit: cover;
 		padding-left: 10px;
 	}
-	.logoFooter a{
-		width: 100%;
-		height: 100%;
-	}
+	
 	.logoFooter img{
 		width: 100%;
 		height: 100%;
