@@ -1930,7 +1930,8 @@ input, select, textarea {
 		width: 200px;
 		height: 150px;
 		object-fit: cover;
-		padding-left: 10px;
+		padding: 10px;
+		/* background-color: red; */
 	}
 	
 	.logoFooter img{
@@ -2207,20 +2208,32 @@ input, select, textarea {
 
 /* Box */
 
+	.box.about{
+		text-align: justify;
+	}	
+	
+	.box.about h2{
+		font-size: 2rem;
+	}		
+	box.about p{
+		font-size: 1.65em;
+	}
 	.box.highlight {
 		text-align: center;
 	}
 
 		.box.highlight h2 {
-			font-size: 3em;
+			font-size: 2em;
 			margin: 0 0 0.25em 0;
 		}
-
 		.box.highlight header > p {
 			font-size: 1.65em;
 			margin: 0 0 1.5em 0;
 		}
-
+		.box.highlight header > h2 {
+			font-size: 3em;
+			margin: 0 0 0.25em 0;
+		}
 	.box.feature {
 		text-align: center;
 	}
