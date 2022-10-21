@@ -1927,8 +1927,8 @@ input, select, textarea {
 		cursor: default;
 	}
 	.logoFooter{
-		width: 200px;
-		height: 150px;
+		width: 150px;
+		height: 100px;
 		object-fit: cover;
 		padding: 10px;
 		/* background-color: red; */
@@ -2220,6 +2220,22 @@ input, select, textarea {
 	}
 	.box.highlight {
 		text-align: center;
+	}
+	.box.highlight.committees {
+		text-align: left;
+	}
+	.box.highlight.committees h2 {
+		font-size: 1.7em;
+		font-weight: 400;
+		margin-bottom: 30px;
+	}
+	.box.highlight.committees ul {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+	.box.highlight.committees li {
+		font-size: 1.1em;
 	}
 
 		.box.highlight h2 {
