@@ -1877,6 +1877,16 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
+	.membros >li>a{
+		text-decoration: none;
+		color: #555;
+		transition: all 0.5s;
+	}
+	.membros > li> a:hover{
+		text-decoration: none;
+		color: #8b008b;
+	}
+
 /* Divided */
 
 	ul.divided {
@@ -2470,7 +2480,7 @@ input, select, textarea {
 		font-weight: 700;
 		text-transform: uppercase;
 		padding: 1em 0;
-		text-align: left;
+		text-align: center;
 		min-width: 14em;
 		margin-top: -1em;
 		box-shadow: 0 1em 2em 0 rgba(0, 0, 0, 0.1);
@@ -2489,7 +2499,7 @@ input, select, textarea {
 
 			.dropotron li:hover > a, .dropotron li:hover > span {
 				color: #fff;
-				background: #7B8780;
+				background: #8b008b;
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span {
