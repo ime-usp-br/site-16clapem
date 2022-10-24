@@ -2248,6 +2248,9 @@ input, select, textarea {
 		font-size: 1.1em;
 	}
 
+		.texto-oculto{
+			display: none;
+		}
 		.box.highlight h2 {
 			font-size: 2em;
 			margin: 0 0 0.25em 0;
@@ -2687,8 +2690,12 @@ input, select, textarea {
 
 		/* Box */
 
-			.box.highlight h2 {
-				font-size: 2.5em;
+		.texto-oculto{
+			display: flex;
+		}
+			.box.highlight header > h2 {
+				font-size: 1.5em;
+				
 			}
 
 			.box.highlight header > p {
@@ -3076,7 +3083,7 @@ input, select, textarea {
 		/* Box */
 
 			.box.highlight h2 {
-				font-size: 2em;
+				font-size: 1em;
 			}
 
 			.box.highlight header > p {
