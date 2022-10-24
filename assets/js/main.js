@@ -46,7 +46,7 @@
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
+					'<span class="title">' + 'XVI Clapem 2023' + '</span>' +
 				'</div>'
 			)
 				.appendTo($body);
