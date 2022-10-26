@@ -2218,98 +2218,120 @@ input, select, textarea {
 
 /* Box */
 
-	.box.about{
+	
+.about{
 		text-align: justify;
 	}	
 	
-	.box.about h2{
+	
+	.about h2{
 		font-size: 2rem;
 	}		
 	box.about p{
 		font-size: 1.65em;
 	}
-	.box.highlight {
+	
+	.highlight {
 		text-align: center;
 	}
-	.box.highlight.committees {
+	
+	.highlight.committees {
 		text-align: left;
 	}
-	.box.highlight.committees h2 {
+	
+	.highlight.committees h2 {
 		font-size: 1.7em;
 		font-weight: 400;
 		margin-bottom: 30px;
 	}
-	.box.highlight.committees ul {
+	
+	.highlight.committees ul {
 		display: flex;
 		flex-direction: column;
 		gap: 30px;
 	}
-	.box.highlight.committees li {
+	
+	.highlight.committees li {
 		font-size: 1.1em;
 	}
 
 		.texto-oculto{
 			display: none;
+			text-align: center;
 		}
-		.box.highlight h2 {
+		
+		.highlight h2 {
 			font-size: 2em;
 			margin: 0 0 0.25em 0;
 		}
-		.box.highlight header > p {
+		
+		.highlight header > p {
 			font-size: 1.65em;
 			margin: 0 0 1.5em 0;
 		}
-		.box.highlight header > h2 {
+		
+		.highlight header > h2 {
 			font-size: 3em;
 			margin: 0 0 0.25em 0;
 		}
-	.box.feature {
+	
+		.feature {
 		text-align: center;
 	}
 
-	.box.post header {
+	
+	.post header {
 		margin: 0 0 2.5em 0;
 	}
 
-	.box.post h3 {
+	
+	.post h3 {
 		font-size: 3em;
 		margin: 0 0 0.25em 0;
 	}
 
-	.box.post header > p {
+	
+	.post header > p {
 		font-size: 1.65em;
 		margin: 0 0 0.5em 0;
 	}
 
-	.box.post ul.meta {
+	
+	.post ul.meta {
 		margin: 0 0 0.5em 0;
 	}
 
-	.box.post-summary h3 {
+	
+	.post-summary h3 {
 		line-height: 1em;
 		margin: 0 0 0.75em 0;
 	}
 
-	.box.post-summary .meta {
+	
+	.post-summary .meta {
 		margin: 0;
 		line-height: 1em;
 	}
 
-	.box.page-content header {
+	
+	.page-content header {
 		margin: 0 0 2.5em 0;
 	}
 
-	.box.page-content h2 {
+	
+	.page-content h2 {
 		font-size: 3em;
 		margin: 0 0 0.5em 0;
 	}
 
-	.box.page-content header > p {
+	
+	.page-content header > p {
 		font-size: 1.65em;
 		margin: 0 0 0.5em 0;
 	}
 
-	.box.page-content ul.meta {
+	
+	.page-content ul.meta {
 		margin: 0 0 0.5em 0;
 	}
 
@@ -2536,7 +2558,7 @@ input, select, textarea {
 		position: relative;
 		/*background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");*/
 		background-image: url("../../images/banner.jpg");
-		background-position: top left, top left, center center;
+		background-position: center;
 		background-repeat: repeat, repeat, no-repeat;
 		background-size: auto, auto, cover;
 		z-index: 1;
@@ -2688,25 +2710,40 @@ input, select, textarea {
 				font-size: 60px;
 			}
 
+		/*Banner*/
+		#banner {
+			background-image: url("../../images/banner.jpg");
+			background-position: center;
+			background-repeat:no-repeat;
+			background-size:auto auto cover;
+			z-index: 1;
+			padding: 11em 0;
+		}
 		/* Box */
 
 		.texto-oculto{
 			display: flex;
+			justify-content: center;
+			align-items: ce;
 		}
-			.box.highlight header > h2 {
+			
+		.highlight header > h2 {
 				font-size: 1.5em;
 				
 			}
 
-			.box.highlight header > p {
+			
+			.highlight header > p {
 				font-size: 1.25em;
 			}
 
-			.box.post h3 {
+			
+			.post h3 {
 				font-size: 2.5em;
 			}
 
-			.box.post header > p {
+			
+			.post header > p {
 				font-size: 1.25em;
 			}
 
@@ -2765,7 +2802,8 @@ input, select, textarea {
 
 		/* Box */
 
-			.box br {
+			
+		 br {
 				display: none;
 			}
 
@@ -3082,27 +3120,33 @@ input, select, textarea {
 
 		/* Box */
 
-			.box.highlight h2 {
+			
+		.highlight h2 {
 				font-size: 1em;
 			}
 
-			.box.highlight header > p {
+			
+			.highlight header > p {
 				font-size: 1.25em;
 			}
 
-			.box.post h3 {
+			
+			.post h3 {
 				font-size: 2em;
 			}
 
-			.box.post header > p {
+			
+			.post header > p {
 				font-size: 1.25em;
 			}
 
-			.box.page-content h2 {
+			
+			.page-content h2 {
 				font-size: 2em;
 			}
 
-			.box.page-content header > p {
+			
+			.page-content header > p {
 				font-size: 1.25em;
 			}
 
