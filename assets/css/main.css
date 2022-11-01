@@ -2256,8 +2256,9 @@ input, select, textarea {
 	}
 
 		.texto-oculto{
-			display: none;
+			display: flex;
 			text-align: center;
+			
 		}
 		
 		.highlight h2 {
@@ -2274,7 +2275,7 @@ input, select, textarea {
 			font-size: 3em;
 			margin: 0 0 0.25em 0;
 		}
-	
+	3em
 		.feature {
 		text-align: center;
 	}
@@ -2724,7 +2725,7 @@ input, select, textarea {
 		.texto-oculto{
 			display: flex;
 			justify-content: center;
-			align-items: ce;
+			align-items: center;
 		}
 			
 		.highlight header > h2 {
