@@ -2224,15 +2224,15 @@ input, select, textarea {
 /* Box */
 
 	
-.about{
+.abstract{
 		text-align: justify;
 	}	
 	
 	
-	.about h2{
+	.abstract h2{
 		font-size: 2rem;
 	}		
-	box.about p{
+	box.abstract p{
 		font-size: 1.65em;
 	}
 	
@@ -3270,6 +3270,24 @@ input, select, textarea {
 
 	}
 
+	.about {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 5%;
+		gap: 20px;
+	}
+	.about > h2{
+		text-align: left;
+		font-size: 3rem;
+	}
+	.about > p{
+		font-size: 1.2rem;
+		text-align: justify;
+	}
 	.informacoes{
 		background-color: #888;
 		display: grid;
@@ -3309,11 +3327,30 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 980px){
+		.about {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			padding-left: 10%;
+			padding-right: 10%;
+			padding-top: 5%;
+			gap: 20px;
+		}
+		.about > h2{
+			text-align: left;
+			font-size: 1.5rem;
+		}
+		.about > p{
+			font-size: 0.9em;
+			text-align: left;
+		}
+		
 		.informacoes{
 			background-color: #888;
 			display: grid;
 			grid-template-columns: auto;
-			height: 100vh;
+			height: 110vh;
 		}
 		.informacao-item {
 			text-align: center;
@@ -3331,14 +3368,14 @@ input, select, textarea {
 			
 		}
 		.data > span{
-			margin-top: 5%;
+			margin-top: 10%;
 			color: black;
-			font-size: 0.8rem;
+			font-size: 0.8em;
 			font-weight: 400;
 		}
 		.data > p {
-		width: 100px;
-		font-size: 0.28em;
+		width: 200px;
+		font-size: 0.5em;
 		text-align: justify;
 		color: white;
 		}
