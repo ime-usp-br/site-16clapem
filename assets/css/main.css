@@ -101,7 +101,7 @@ input, select, textarea {
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		color: #6b7770;
-		font-size: 13pt;
+		font-size: 14pt;
 		line-height: 2em;
 	}
 
@@ -3243,12 +3243,12 @@ input, select, textarea {
 		font-weight: 400;
 	}
 	td{
-		border:5px solid gray;
+		border:1px solid gray;
 		border-radius: 5px;
 		width: 300px;
 		height: 10px;
 		text-align: center;
-		font-size: 1.2em;
+		color: #6b7770;;
 	}
 
 
@@ -3269,13 +3269,12 @@ input, select, textarea {
 			font-style: italic;
 		}
 		td{
-			border:3px solid gray;
+			border:1px solid gray;
 			border-radius: 100px;
 			width: 25%;
 			height: 100%;
 			text-align: center;
 			font-weight: 100;
-			color: red;
 		}
 
 	}
@@ -3295,7 +3294,6 @@ input, select, textarea {
 		font-size: 3rem;
 	}
 	.about > p{
-		font-size: 1.2rem;
 		text-align: justify;
 	}
 	.informacoes{
