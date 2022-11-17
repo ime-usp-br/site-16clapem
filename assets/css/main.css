@@ -3291,6 +3291,9 @@ input, select, textarea {
 	.about > p{
 		text-align: justify;
 	}
+	.about > span{
+		text-align: justify;
+	}
 	.informacoes{
 		background-color: #888;
 		display: grid;
