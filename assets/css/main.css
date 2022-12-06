@@ -3386,3 +3386,39 @@ input, select, textarea {
 		color: white;
 		}
 	}
+
+	.mapa{
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+	.mapa-texto{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 80%;
+	}
+	.mapa-texto p{
+		font-size: 1rem
+	}
+	.mapa-google{
+		width:600; 
+		height:450;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	iframe{
+		width: 600px;
+		height: 450px;
+	}
+	
+	@media screen and (max-width: 980px){
+		.mapa{
+			flex-direction: column;
+		}
+		iframe{
+			width: 300px;
+			height: 300px;
+		}
+	}
