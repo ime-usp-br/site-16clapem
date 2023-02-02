@@ -3333,11 +3333,19 @@ input, select, textarea {
 	.data > p {
 	
 	width: 450px;
-	font-size: 0.7em;
+	font-size: 0.6em;
 	text-align: justify;
 	color: white;
+	height: 150px;
 	}
-
+	.noticias{
+		height: 60vh;
+		padding-top: 1em;
+	}
+	.noticias > h1{
+		font-size: 2em;
+		
+	}
 	@media screen and (max-width: 980px){
 		.about {
 			display: flex;
@@ -3362,7 +3370,7 @@ input, select, textarea {
 			background-color: #888;
 			display: grid;
 			grid-template-columns: auto;
-			height: 110vh;
+			height: 150vh;
 		}
 		.informacao-item {
 			text-align: center;
@@ -3387,12 +3395,12 @@ input, select, textarea {
 		}
 		.data > p {
 		width: 200px;
-		font-size: 0.5em;
+		font-size: 0.4em;
 		text-align: justify;
 		color: white;
 		}
 	}
-
+	
 	.mapa{
 		display: flex;
 		width: 100%;
