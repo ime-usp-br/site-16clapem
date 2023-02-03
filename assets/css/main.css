@@ -3305,7 +3305,7 @@ input, select, textarea {
 		display: grid;
 		grid-template-columns: auto auto;
 		padding: 10px;
-		height: 50vh;
+		height: 65vh;
 	}
 	.informacao-item {
 		padding: 10px;
