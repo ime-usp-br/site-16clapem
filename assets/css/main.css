@@ -3340,11 +3340,23 @@ input, select, textarea {
 	}
 	.noticias{
 		height: 60vh;
-		padding-top: 1em;
+		padding-top: 5em;
+		display: flex;
+		flex-direction: column;
+		/* justify-content: center; */
+		align-items: center;
 	}
-	.noticias > h1{
-		font-size: 2em;
-		
+	.noticias > h2{
+		font-size: 1.65em;
+	}
+	.noticia{
+		display: flex;
+		width: 60%;
+		padding-top: 5em;
+	}
+	.texto > p{
+		text-align: justify;
+		padding-top: 2em;
 	}
 	@media screen and (max-width: 980px){
 		.about {
@@ -3398,6 +3410,29 @@ input, select, textarea {
 		font-size: 0.4em;
 		text-align: justify;
 		color: white;
+		}
+		.noticias{
+			height: 60vh;
+			padding-top: 15em;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding-bottom: 5em;
+		}
+		.noticias > h2{
+			font-size: 1.3rem;
+		}
+		.noticia{
+			display: flex;
+			width: 30vh;
+			padding-top: 3em;
+		
+		}
+		.texto > p{
+			text-align: justify;
+			padding-top: 2em;
+			padding-bottom: 2.5em;
 		}
 	}
 	
