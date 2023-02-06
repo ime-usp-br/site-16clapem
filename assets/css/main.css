@@ -3412,7 +3412,7 @@ input, select, textarea {
 		color: white;
 		}
 		.noticias{
-			height: 70vh;
+			height: 80vh;
 			padding-top: 15em;
 			display: flex;
 			flex-direction: column;
