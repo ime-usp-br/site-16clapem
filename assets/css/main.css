@@ -1890,7 +1890,14 @@ input, select, textarea {
 
 	.membros{
 		display: flex;
+		list-style-type: square;
 	}
+
+	.integrantes
+	{
+    	 right: 30px;
+	}
+
 
 
 /* Divided */
