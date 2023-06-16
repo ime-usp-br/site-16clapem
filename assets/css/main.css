@@ -2833,10 +2833,12 @@ input, select, textarea {
 
 		/* Box */
 
-			
+
 		 br {
-				display: none;
+				display: block;
+				margin-top: 15px;
 			}
+			*/
 
 		/* Header */
 
