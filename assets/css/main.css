@@ -33,6 +33,11 @@ body {
 	line-height: 1;
 }
 
+.rowx{
+		display: flex;
+		height: 660px;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -2837,29 +2842,6 @@ input, select, textarea {
 				display: block;
 				margin-top: 15px;
 			}
-
-        .container {
-          width: 500px;
-          height: 200px;
-          background: aqua;
-          margin: auto;
-          padding: 10px;
-        }
-
-		.one {
-          width: 15%;
-          height: 200px;
-          background: red;
-          float: left;
-        }
-
-		.two {
-          margin-left: 15%;
-          height: 200px;
-          background: black;
-        }
-
-
 
 
 		/* Header */
