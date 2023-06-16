@@ -35,6 +35,7 @@ body {
 
 .rowx{
 		display: flex;
+		overflow-y: hidden;
 }
 
 
