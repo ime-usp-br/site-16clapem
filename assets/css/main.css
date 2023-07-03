@@ -33,22 +33,22 @@ body {
 	line-height: 1;
 }
 
-.informacoes
-{
-    margin-top: 20%;
-}
 
 .mapa1 {
-    width: 80%
-    height: auto;
     display: block;
+    margin: 5% auto;
+    width: auto;
+    height: 800px;
+    margin: 5% auto;
+    border: 1px solid black;
+    border-style: dashed;
 }
 
 
-.rowx{
+.rowx {
 		display: flex;
 		width: 100%;
-		margin: 0 5% 5% 5%;
+		margin: 0 5% 0% 5%;
 }
 
 .links {
@@ -239,6 +239,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
+		width: 64em;
 	}
 	.container2 {
 		display: flex;
