@@ -34,6 +34,24 @@ body {
 }
 
 
+
+
+.iframeSchedule1
+{
+	width: 100%;
+	height: 45em;
+}
+@media screen and (max-width: 450px)
+{
+	.iframeSchedule1
+	{
+		width: 65%;
+	}
+}
+
+
+
+
 .mapa1 {
     display: flex;
     width: 60%;
@@ -3505,6 +3523,8 @@ input, select, textarea {
 		justify-content: center;
 		align-items: center;
 	}
+
+
 	iframe{
 		width: 600px;
 		height: 450px;
