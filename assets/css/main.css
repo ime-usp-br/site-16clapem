@@ -36,10 +36,21 @@ body {
 
 .mapa1 {
     display: flex;
-    width: 100%;
+    width: 60%;
     border: 1px solid black;
     border-style: dashed;
-    margin: 0 0 5% 0;
+    margin: 0 20% 5% 20%;
+}
+
+@media screen and (max-width: 736px)
+{
+    .mapa1 {
+        display: flex;
+        width: 100%;
+        border: 1px solid black;
+        border-style: dashed;
+        margin: 0 0 5% 0;
+    }
 }
 
 .info1 {
@@ -48,7 +59,7 @@ body {
 }
 
 
-.rowx {
+.calendario {
 		display: flex;
 		width: 100%;
 		margin: 0 1% 5% 1%;
